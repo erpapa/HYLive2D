@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA363A7D1FDC3758003BDC45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA363A7C1FDC3758003BDC45 /* AppDelegate.m */; };
+		EA363A801FDC3758003BDC45 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA363A7F1FDC3758003BDC45 /* ViewController.m */; };
+		EA363A831FDC3758003BDC45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA363A811FDC3758003BDC45 /* Main.storyboard */; };
+		EA363A851FDC3758003BDC45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA363A841FDC3758003BDC45 /* Assets.xcassets */; };
+		EA363A881FDC3759003BDC45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA363A861FDC3759003BDC45 /* LaunchScreen.storyboard */; };
+		EA363A8B1FDC3759003BDC45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA363A8A1FDC3759003BDC45 /* main.m */; };
+		EA363A951FDC3759003BDC45 /* HYLive2DTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA363A941FDC3759003BDC45 /* HYLive2DTests.m */; };
+		EA363AA01FDC3759003BDC45 /* HYLive2DUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA363A9F1FDC3759003BDC45 /* HYLive2DUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA363A911FDC3759003BDC45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA363A701FDC3758003BDC45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA363A771FDC3758003BDC45;
+			remoteInfo = HYLive2D;
+		};
+		EA363A9C1FDC3759003BDC45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA363A701FDC3758003BDC45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA363A771FDC3758003BDC45;
+			remoteInfo = HYLive2D;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA363A781FDC3758003BDC45 /* HYLive2D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYLive2D.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA363A7B1FDC3758003BDC45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA363A7C1FDC3758003BDC45 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA363A7E1FDC3758003BDC45 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA363A7F1FDC3758003BDC45 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA363A821FDC3758003BDC45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA363A841FDC3758003BDC45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA363A871FDC3759003BDC45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA363A891FDC3759003BDC45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA363A8A1FDC3759003BDC45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA363A901FDC3759003BDC45 /* HYLive2DTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYLive2DTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA363A941FDC3759003BDC45 /* HYLive2DTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYLive2DTests.m; sourceTree = "<group>"; };
+		EA363A961FDC3759003BDC45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA363A9B1FDC3759003BDC45 /* HYLive2DUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYLive2DUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA363A9F1FDC3759003BDC45 /* HYLive2DUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYLive2DUITests.m; sourceTree = "<group>"; };
+		EA363AA11FDC3759003BDC45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA363A751FDC3758003BDC45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA363A8D1FDC3759003BDC45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA363A981FDC3759003BDC45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA363A6F1FDC3758003BDC45 = {
+			isa = PBXGroup;
+			children = (
+				EA363A7A1FDC3758003BDC45 /* HYLive2D */,
+				EA363A931FDC3759003BDC45 /* HYLive2DTests */,
+				EA363A9E1FDC3759003BDC45 /* HYLive2DUITests */,
+				EA363A791FDC3758003BDC45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA363A791FDC3758003BDC45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA363A781FDC3758003BDC45 /* HYLive2D.app */,
+				EA363A901FDC3759003BDC45 /* HYLive2DTests.xctest */,
+				EA363A9B1FDC3759003BDC45 /* HYLive2DUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA363A7A1FDC3758003BDC45 /* HYLive2D */ = {
+			isa = PBXGroup;
+			children = (
+				EA363A7B1FDC3758003BDC45 /* AppDelegate.h */,
+				EA363A7C1FDC3758003BDC45 /* AppDelegate.m */,
+				EA363A7E1FDC3758003BDC45 /* ViewController.h */,
+				EA363A7F1FDC3758003BDC45 /* ViewController.m */,
+				EA363A811FDC3758003BDC45 /* Main.storyboard */,
+				EA363A841FDC3758003BDC45 /* Assets.xcassets */,
+				EA363A861FDC3759003BDC45 /* LaunchScreen.storyboard */,
+				EA363A891FDC3759003BDC45 /* Info.plist */,
+				EA363A8A1FDC3759003BDC45 /* main.m */,
+			);
+			path = HYLive2D;
+			sourceTree = "<group>";
+		};
+		EA363A931FDC3759003BDC45 /* HYLive2DTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA363A941FDC3759003BDC45 /* HYLive2DTests.m */,
+				EA363A961FDC3759003BDC45 /* Info.plist */,
+			);
+			path = HYLive2DTests;
+			sourceTree = "<group>";
+		};
+		EA363A9E1FDC3759003BDC45 /* HYLive2DUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA363A9F1FDC3759003BDC45 /* HYLive2DUITests.m */,
+				EA363AA11FDC3759003BDC45 /* Info.plist */,
+			);
+			path = HYLive2DUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA363A771FDC3758003BDC45 /* HYLive2D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA363AA41FDC3759003BDC45 /* Build configuration list for PBXNativeTarget "HYLive2D" */;
+			buildPhases = (
+				EA363A741FDC3758003BDC45 /* Sources */,
+				EA363A751FDC3758003BDC45 /* Frameworks */,
+				EA363A761FDC3758003BDC45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYLive2D;
+			productName = HYLive2D;
+			productReference = EA363A781FDC3758003BDC45 /* HYLive2D.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA363A8F1FDC3759003BDC45 /* HYLive2DTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA363AA71FDC3759003BDC45 /* Build configuration list for PBXNativeTarget "HYLive2DTests" */;
+			buildPhases = (
+				EA363A8C1FDC3759003BDC45 /* Sources */,
+				EA363A8D1FDC3759003BDC45 /* Frameworks */,
+				EA363A8E1FDC3759003BDC45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA363A921FDC3759003BDC45 /* PBXTargetDependency */,
+			);
+			name = HYLive2DTests;
+			productName = HYLive2DTests;
+			productReference = EA363A901FDC3759003BDC45 /* HYLive2DTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA363A9A1FDC3759003BDC45 /* HYLive2DUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA363AAA1FDC3759003BDC45 /* Build configuration list for PBXNativeTarget "HYLive2DUITests" */;
+			buildPhases = (
+				EA363A971FDC3759003BDC45 /* Sources */,
+				EA363A981FDC3759003BDC45 /* Frameworks */,
+				EA363A991FDC3759003BDC45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA363A9D1FDC3759003BDC45 /* PBXTargetDependency */,
+			);
+			name = HYLive2DUITests;
+			productName = HYLive2DUITests;
+			productReference = EA363A9B1FDC3759003BDC45 /* HYLive2DUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA363A701FDC3758003BDC45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = erpapa;
+				TargetAttributes = {
+					EA363A771FDC3758003BDC45 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					EA363A8F1FDC3759003BDC45 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA363A771FDC3758003BDC45;
+					};
+					EA363A9A1FDC3759003BDC45 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA363A771FDC3758003BDC45;
+					};
+				};
+			};
+			buildConfigurationList = EA363A731FDC3758003BDC45 /* Build configuration list for PBXProject "HYLive2D" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA363A6F1FDC3758003BDC45;
+			productRefGroup = EA363A791FDC3758003BDC45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA363A771FDC3758003BDC45 /* HYLive2D */,
+				EA363A8F1FDC3759003BDC45 /* HYLive2DTests */,
+				EA363A9A1FDC3759003BDC45 /* HYLive2DUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA363A761FDC3758003BDC45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA363A881FDC3759003BDC45 /* LaunchScreen.storyboard in Resources */,
+				EA363A851FDC3758003BDC45 /* Assets.xcassets in Resources */,
+				EA363A831FDC3758003BDC45 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA363A8E1FDC3759003BDC45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA363A991FDC3759003BDC45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA363A741FDC3758003BDC45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA363A801FDC3758003BDC45 /* ViewController.m in Sources */,
+				EA363A8B1FDC3759003BDC45 /* main.m in Sources */,
+				EA363A7D1FDC3758003BDC45 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA363A8C1FDC3759003BDC45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA363A951FDC3759003BDC45 /* HYLive2DTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA363A971FDC3759003BDC45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA363AA01FDC3759003BDC45 /* HYLive2DUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA363A921FDC3759003BDC45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA363A771FDC3758003BDC45 /* HYLive2D */;
+			targetProxy = EA363A911FDC3759003BDC45 /* PBXContainerItemProxy */;
+		};
+		EA363A9D1FDC3759003BDC45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA363A771FDC3758003BDC45 /* HYLive2D */;
+			targetProxy = EA363A9C1FDC3759003BDC45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA363A811FDC3758003BDC45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA363A821FDC3758003BDC45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA363A861FDC3759003BDC45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA363A871FDC3759003BDC45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA363AA21FDC3759003BDC45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA363AA31FDC3759003BDC45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA363AA51FDC3759003BDC45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P5T5EGX8G8;
+				INFOPLIST_FILE = HYLive2D/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.erpapa.HYLive2D;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA363AA61FDC3759003BDC45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P5T5EGX8G8;
+				INFOPLIST_FILE = HYLive2D/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.erpapa.HYLive2D;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA363AA81FDC3759003BDC45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P5T5EGX8G8;
+				INFOPLIST_FILE = HYLive2DTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.erpapa.HYLive2DTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYLive2D.app/HYLive2D";
+			};
+			name = Debug;
+		};
+		EA363AA91FDC3759003BDC45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P5T5EGX8G8;
+				INFOPLIST_FILE = HYLive2DTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.erpapa.HYLive2DTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYLive2D.app/HYLive2D";
+			};
+			name = Release;
+		};
+		EA363AAB1FDC3759003BDC45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P5T5EGX8G8;
+				INFOPLIST_FILE = HYLive2DUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.erpapa.HYLive2DUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HYLive2D;
+			};
+			name = Debug;
+		};
+		EA363AAC1FDC3759003BDC45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P5T5EGX8G8;
+				INFOPLIST_FILE = HYLive2DUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.erpapa.HYLive2DUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HYLive2D;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA363A731FDC3758003BDC45 /* Build configuration list for PBXProject "HYLive2D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA363AA21FDC3759003BDC45 /* Debug */,
+				EA363AA31FDC3759003BDC45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA363AA41FDC3759003BDC45 /* Build configuration list for PBXNativeTarget "HYLive2D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA363AA51FDC3759003BDC45 /* Debug */,
+				EA363AA61FDC3759003BDC45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA363AA71FDC3759003BDC45 /* Build configuration list for PBXNativeTarget "HYLive2DTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA363AA81FDC3759003BDC45 /* Debug */,
+				EA363AA91FDC3759003BDC45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA363AAA1FDC3759003BDC45 /* Build configuration list for PBXNativeTarget "HYLive2DUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA363AAB1FDC3759003BDC45 /* Debug */,
+				EA363AAC1FDC3759003BDC45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA363A701FDC3758003BDC45 /* Project object */;
+}
