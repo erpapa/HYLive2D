@@ -1,0 +1,20 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"Shizuku_Sit.moc",
+	"textures":[
+		"Shizuku_Sit.2048/texture_00.png"
+	],
+	"motions":{
+		"":[
+			{"file":"motions/Anger.mtn"},
+			{"file":"motions/Idle.mtn"},
+			{"file":"motions/Joy.mtn"},
+			{"file":"motions/Shy.mtn"},
+			{"file":"motions/Surprise.mtn"}
+		]
+	},
+	"physics":"physics.json",
+	"pose":"pose.json",
+	"project_settings":"Shizuku_Sit.settings.json",
+	"name":"Shizuku_Sit"
+}

@@ -1,0 +1,10 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"Shizuku_Stand.moc",
+	"textures":[
+		"Shizuku_Stand.2048/texture_00.png"
+	],
+	"physics":"physics.json",
+	"project_settings":"Shizuku_Stand.settings.json",
+	"name":"Shizuku_Stand"
+}

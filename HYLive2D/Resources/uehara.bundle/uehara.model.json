@@ -1,0 +1,24 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"uehara.moc",
+	"textures":[
+		"uehara.2048/texture_00.png"
+	],
+	"expressions":[
+		{"name":"f00","file":"face/f00.mtn"},
+		{"name":"f01","file":"face/f01.mtn"},
+		{"name":"f02","file":"face/f02.mtn"},
+		{"name":"f03","file":"face/f03.mtn"},
+		{"name":"f04","file":"face/f04.mtn"}
+	],
+	"motions":{
+		"":[
+			{"file":"motions/uehara_00.mtn"},
+			{"file":"motions/uehara_01.mtn"},
+			{"file":"motions/uehara_02.mtn"},
+			{"file":"motions/uehara_03.mtn"},
+			{"file":"motions/uehara_04.mtn"}
+		]
+	},
+	"physics":"embed://Sample Physics.json"
+}

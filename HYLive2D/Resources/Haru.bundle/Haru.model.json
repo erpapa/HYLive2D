@@ -1,0 +1,10 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"Haru.moc",
+	"textures":[
+		"Haru.1024/texture_00.png",
+        "Haru.1024/texture_01.png",
+        "Haru.1024/texture_02.png"
+	],
+    "name":"Haru",
+}

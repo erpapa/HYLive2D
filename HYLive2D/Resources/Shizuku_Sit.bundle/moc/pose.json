@@ -1,0 +1,22 @@
+{
+	"type":"Live2D Pose",
+	"parts_visible":[
+		{
+			"group":[
+				{"id":"PARTS_01_ARM1_1"},
+				{"id":"PARTS_01_ARM1_2"},
+				{"id":"PARTS_01_ARM1_3"}
+			]
+		},
+		{
+			"group":[
+				{"id":"PARTS_01_ARM2_1"},
+				{"id":"PARTS_01_ARM2_2"},
+				{"id":"PARTS_01_ARM2_5"},
+				{"id":"PARTS_01_ARM2_6"},
+				{"id":"PARTS_01_ARM2_7"},
+				{"id":"PARTS_01_ARM2_DRINK"}
+			]
+		}
+	]
+}
