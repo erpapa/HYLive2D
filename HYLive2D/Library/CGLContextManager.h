@@ -11,8 +11,11 @@
 
 @interface CGLContextManager : NSObject
 
-@property (nonatomic,strong,readonly) EAGLSharegroup *sharedGroup;
+@property (nonatomic, strong, readonly) EAGLSharegroup *sharedGroup;
 
 - (EAGLContext *)createContext;
+
+- (void)setupLiveContext;
+- (void)disposeLiveContext;
 
 @end

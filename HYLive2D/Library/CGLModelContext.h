@@ -10,7 +10,17 @@
 
 @interface CGLModelContext : NSObject
 
-- (void *)getModelContext;
-- (void)setModelContext:(void *)modelContext;
+- (instancetype)initWithContext:(void *)modelContext;
+- (void *)modelContext;
+
+- (void)setupContext;
+- (void)releaseContext;
+
+- (void *)getMemoryParam;
+- (int)getInitVersion;
+- (BOOL)requireSetup;
+- (BOOL)update;
+- (void)preDraw:(void *)dp;
+- (void)draw:(void *)dp;
 
 @end

@@ -36,7 +36,7 @@
 		EA3D59341FDD5F87008E395B /* uehara.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EA3D59331FDD5F87008E395B /* uehara.bundle */; };
 		EA58271A1FDCE5A100952544 /* CGLLive2D.mm in Sources */ = {isa = PBXBuildFile; fileRef = EA5827191FDCE5A100952544 /* CGLLive2D.mm */; };
 		EA5827201FDCE66600952544 /* CGLLive2DView.mm in Sources */ = {isa = PBXBuildFile; fileRef = EA58271F1FDCE66600952544 /* CGLLive2DView.mm */; };
-		EA5827231FDCE99300952544 /* CGLContextManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5827221FDCE99300952544 /* CGLContextManager.m */; };
+		EA5827231FDCE99300952544 /* CGLContextManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = EA5827221FDCE99300952544 /* CGLContextManager.mm */; };
 		EA5827261FDCFAEC00952544 /* CGLDrawParam.mm in Sources */ = {isa = PBXBuildFile; fileRef = EA5827251FDCFAEC00952544 /* CGLDrawParam.mm */; };
 		EA5827291FDD08FD00952544 /* CGLLive2DModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = EA5827271FDD08FD00952544 /* CGLLive2DModel.mm */; };
 		EA58272C1FDD0F7100952544 /* CGLModelContext.mm in Sources */ = {isa = PBXBuildFile; fileRef = EA58272B1FDD0F7100952544 /* CGLModelContext.mm */; };
@@ -118,7 +118,7 @@
 		EA58271E1FDCE66600952544 /* CGLLive2DView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGLLive2DView.h; sourceTree = "<group>"; };
 		EA58271F1FDCE66600952544 /* CGLLive2DView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CGLLive2DView.mm; sourceTree = "<group>"; };
 		EA5827211FDCE99200952544 /* CGLContextManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGLContextManager.h; sourceTree = "<group>"; };
-		EA5827221FDCE99300952544 /* CGLContextManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGLContextManager.m; sourceTree = "<group>"; };
+		EA5827221FDCE99300952544 /* CGLContextManager.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CGLContextManager.mm; sourceTree = "<group>"; };
 		EA5827241FDCFAEC00952544 /* CGLDrawParam.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGLDrawParam.h; sourceTree = "<group>"; };
 		EA5827251FDCFAEC00952544 /* CGLDrawParam.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CGLDrawParam.mm; sourceTree = "<group>"; };
 		EA5827271FDD08FD00952544 /* CGLLive2DModel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CGLLive2DModel.mm; sourceTree = "<group>"; };
@@ -366,16 +366,16 @@
 			children = (
 				EA5827181FDCE5A100952544 /* CGLLive2D.h */,
 				EA5827191FDCE5A100952544 /* CGLLive2D.mm */,
-				EA5827281FDD08FD00952544 /* CGLLive2DModel.h */,
-				EA5827271FDD08FD00952544 /* CGLLive2DModel.mm */,
 				EA58271E1FDCE66600952544 /* CGLLive2DView.h */,
 				EA58271F1FDCE66600952544 /* CGLLive2DView.mm */,
+				EA5827281FDD08FD00952544 /* CGLLive2DModel.h */,
+				EA5827271FDD08FD00952544 /* CGLLive2DModel.mm */,
 				EA5827241FDCFAEC00952544 /* CGLDrawParam.h */,
 				EA5827251FDCFAEC00952544 /* CGLDrawParam.mm */,
 				EA58272A1FDD0F7100952544 /* CGLModelContext.h */,
 				EA58272B1FDD0F7100952544 /* CGLModelContext.mm */,
 				EA5827211FDCE99200952544 /* CGLContextManager.h */,
-				EA5827221FDCE99300952544 /* CGLContextManager.m */,
+				EA5827221FDCE99300952544 /* CGLContextManager.mm */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -789,7 +789,7 @@
 				EA363B371FDC3947003BDC45 /* L2DModelMatrix.cpp in Sources */,
 				EA363B3A1FDC3947003BDC45 /* L2DPose.cpp in Sources */,
 				EA363B351FDC3947003BDC45 /* L2DEyeBlink.cpp in Sources */,
-				EA5827231FDCE99300952544 /* CGLContextManager.m in Sources */,
+				EA5827231FDCE99300952544 /* CGLContextManager.mm in Sources */,
 				EA363B391FDC3947003BDC45 /* L2DPhysics.cpp in Sources */,
 				EA5827291FDD08FD00952544 /* CGLLive2DModel.mm in Sources */,
 				EA363A7D1FDC3758003BDC45 /* AppDelegate.m in Sources */,

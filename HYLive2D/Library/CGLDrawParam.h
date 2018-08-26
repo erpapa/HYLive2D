@@ -12,9 +12,9 @@
 
 @interface CGLDrawParam : NSObject
 
-- (void *)getDrawParam;
-- (void)setDrawParam:(void *)drawParam;
+- (instancetype)initWithParam:(void *)drawParam;
 
+- (void *)drawParam;
 - (void)setupDraw;
 - (void)cleanupDraw;
 

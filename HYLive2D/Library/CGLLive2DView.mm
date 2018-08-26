@@ -18,9 +18,9 @@
 
 @property (nonatomic, strong, readwrite) CGLContextManager *contextManager;
 @property (nonatomic, strong, readwrite) CGLLive2DModel *live2DModel;
+@property (nonatomic, strong, readwrite) CADisplayLink *displayLink;
 @property (nonatomic, strong, readwrite) EAGLContext *context;
-@property (nonatomic, strong) GLKView *glkView;
-@property (nonatomic, strong) CADisplayLink *displayLink;
+@property (nonatomic, strong, readwrite) GLKView *glkView;
 
 @end
 
@@ -50,8 +50,6 @@
 {
     [self.displayLink invalidate];
     self.displayLink = nil;
-    
-    self.live2DModel = nil;
     
     // 清空context
     if ([EAGLContext currentContext] == self.context) {
@@ -96,16 +94,15 @@
     glClearColor(0.65f, 0.65f, 0.65f, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     
-    CGSize screenSize = [[UIScreen mainScreen] bounds].size;
+    // 计算缩放比例
     float scx = 2.0 / [self.live2DModel getCanvasWidth];
-    float scy = -2.0 / [self.live2DModel getCanvasWidth] * (screenSize.width/screenSize.height);
-    GLKMatrix4 matrix = GLKMatrix4Make(scx, 0, 0, 0,
-                                       0, scy, 0, 0,
-                                       0,   0, 1, 0,
-                                       -1,  1, 0, 1);
-    double t = (live2d::UtSystem::getUserTimeMSec()/1000.0) * 2 * M_PI ;
+    float scy = -2.0 / [self.live2DModel getCanvasWidth] * (view.bounds.size.width/view.bounds.size.height);
+    // 默认在右下角，需要平移到屏幕中间
+    GLKMatrix4 translateMatrix = GLKMatrix4MakeTranslation(-1.0, 1.0, 0.0);
+    GLKMatrix4 scaleMatrix = GLKMatrix4Scale(translateMatrix, scx, scy, 1.0);
+    double t = (live2d::UtSystem::getUserTimeMSec() / 1000.0) * 2 * M_PI ;
     [self.live2DModel setParamWithID:@"PARAM_ANGLE_X" value:(float)(30 * sin( t/3.0 )) weight:1.0];
-    [self.live2DModel setMatrix:matrix];
+    [self.live2DModel setMatrix:scaleMatrix];
     [self.live2DModel update];
     [self.live2DModel draw];
 }

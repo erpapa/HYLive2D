@@ -31,6 +31,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.view.backgroundColor = [UIColor whiteColor];
     self.contextManager = [[CGLContextManager alloc] init];
+    [self.contextManager setupLiveContext];
     
     // 模型
     self.live2DView = [[CGLLive2DView alloc] initWithFrame:self.view.bounds contextManager:self.contextManager];
@@ -38,20 +39,20 @@
     
     NSBundle *bundle = [NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:@"Haru" ofType:@"bundle"]];
     NSString *jsonPath = [bundle.bundlePath stringByAppendingPathComponent:@"Haru.model.json"];
-    self.live2DModel = [[CGLLive2DModel alloc] initWithContext:self.live2DView.context];
+    self.live2DModel = [[CGLLive2DModel alloc] initWithContextManager:self.contextManager];
     [self.live2DModel loadModelWithJsonPath:jsonPath];
     [self.live2DView reloadModel:self.live2DModel];
 
 }
 
-//- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
-//{
-//    self.live2DView.paused = !self.live2DView.paused;
-//}
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    self.live2DView.paused = !self.live2DView.paused;
+}
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)dealloc
+{
+    [self.contextManager disposeLiveContext];
 }
 
 

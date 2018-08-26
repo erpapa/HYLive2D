@@ -7,10 +7,12 @@
 //
 
 #import "CGLContextManager.h"
+#import "Live2D.h"
 
 @interface CGLContextManager()
 
-@property (nonatomic,strong,readwrite) EAGLSharegroup *sharedGroup;
+@property (nonatomic, strong, readwrite) EAGLSharegroup *sharedGroup;
+@property (nonatomic, assign, readwrite) BOOL isLive2dInit;
 
 @end
 
@@ -32,6 +34,22 @@
             return context;
         }
     }
+}
+
+- (void)setupLiveContext
+{
+    if (self.isLive2dInit) {
+        return;
+    }
+    live2d::Live2D::init();
+}
+
+- (void)disposeLiveContext
+{
+    if (!self.isLive2dInit) {
+        return;
+    }
+    live2d::Live2D::dispose();
 }
 
 @end

@@ -21,6 +21,7 @@ extern NSString * const kCGLLive2DName;
 
 @class CGLDrawParam;
 @class CGLModelContext;
+@class CGLContextManager;
 @interface CGLLive2DModel : NSObject
 {
 @private
@@ -33,8 +34,8 @@ extern NSString * const kCGLLive2DName;
 @property (nonatomic, strong, readonly) CGLDrawParam *drawParam;
 @property (nonatomic, strong, readonly) CGLModelContext *modelContext;
 
-- (instancetype)initWithContext:(EAGLContext *)context;
-- (void)loadModelWithJsonPath:(NSString *)jsonPath;
+- (instancetype)initWithContextManager:(CGLContextManager *)contextManager;
+- (int)loadModelWithJsonPath:(NSString *)jsonPath;
 
 - (void)update;
 - (void)draw;
